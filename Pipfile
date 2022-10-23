@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = {path = "./mkdocs-material"}
+mkdocs-static-i18n = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+typing-extensions = "*"
+mkdocs-rss-plugin = "*"
+mkdocs-git-committers-plugin-2 = "*"
+mkdocs-macros-plugin = "*"
+
+[dev-packages]
+scour = "*"
+
+[requires]
+python_version = "3.8"
