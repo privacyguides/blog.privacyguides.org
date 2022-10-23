@@ -2,6 +2,8 @@
 date: 2021-09-14
 categories:
     - Announcements
+authors:
+    - jonaharagon
 ---
 # Welcome to Privacy Guides
 

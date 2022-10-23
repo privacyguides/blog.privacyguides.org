@@ -1,5 +1,9 @@
 ---
 date: 2022-06-09
+categories:
+    - Opinion
+authors:
+    - danarel
 ---
 # "Hide Nothing"
 

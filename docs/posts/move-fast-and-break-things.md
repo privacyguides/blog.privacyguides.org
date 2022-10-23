@@ -1,5 +1,9 @@
 ---
 date: 2022-04-04
+categories:
+    - Opinion
+authors:
+    - freddy-m
 ---
 # Move Fast and Break Things
 

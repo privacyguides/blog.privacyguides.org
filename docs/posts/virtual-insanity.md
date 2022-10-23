@@ -1,5 +1,9 @@
 ---
 date: 2021-11-01
+categories:
+    - Opinion
+authors:
+    - freddy-m
 ---
 # Virtual Insanity
 
