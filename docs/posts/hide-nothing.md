@@ -5,7 +5,7 @@ categories:
 authors:
     - danarel
 ---
-# "Hide Nothing"
+# Hide Nothing
 
 In the wake of the September 11, 2001, attack on the United States, the US government enacted laws that weakened citizen privacy in the name of national emergency. This sent up many red flags for human rights and privacy advocates.<!-- more -->
 

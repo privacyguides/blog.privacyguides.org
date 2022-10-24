@@ -1,1 +1,1 @@
-# Blog
+# Privacy Guides Blog

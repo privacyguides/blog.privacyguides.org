@@ -2,7 +2,7 @@ docs_dir: 'docs'
 site_url: "https://blog.privacyguides.org/"
 site_dir: 'site'
 
-site_name: Privacy Guides Blog
+site_name: Privacy Guides
 site_description: |
   Privacy Guides is your central privacy and security resource to protect yourself online.
 copyright: |

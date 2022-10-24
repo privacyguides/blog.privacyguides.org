@@ -1,16 +1,24 @@
-jonaharagon:
-  name: Jonah
-  description: Team Member
-  avatar: https://github.com/jonaharagon.png
-freddy-m:
-  name: Freddy
-  description: Team Member
-  avatar: https://github.com/freddy-m.png
-dngray:
-  name: Daniel
-  description: Team Member
-  avatar: https://github.com/dngray.png
 danarel:
   name: Dan Arel
   description: Guest Contributor
   avatar: https://github.com/danarel.png
+dngray:
+  name: Daniel
+  description: Team Member
+  avatar: https://github.com/dngray.png
+freddy-m:
+  name: Freddy
+  description: Team Member
+  avatar: https://github.com/freddy-m.png
+jonaharagon:
+  name: Jonah
+  description: Team Member
+  avatar: https://github.com/jonaharagon.png
+natebartram:
+  name: Nate Bartram
+  description: Guest Contributor
+  avatar: https://gitlab.com/uploads/-/system/user/avatar/8993331/avatar.png
+sam-howell:
+  name: Sam Howell
+  description: Guest Contributor
+  avatar: https://gitlab.com/uploads/-/system/user/avatar/5349522/avatar.png

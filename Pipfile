@@ -11,6 +11,8 @@ typing-extensions = "*"
 mkdocs-rss-plugin = "*"
 mkdocs-git-committers-plugin-2 = "*"
 mkdocs-macros-plugin = "*"
+pillow = "*"
+cairosvg = "*"
 
 [dev-packages]
 scour = "*"
