@@ -7,7 +7,7 @@ site_description: |
   Privacy Guides is your central privacy and security resource to protect yourself online.
 copyright: |
   <b>Privacy Guides</b> is a non-profit, socially motivated website that provides information for protecting your data security and privacy.<br>
-  &copy; 2022 Privacy Guides and contributors.
+  &copy; 2022 Privacy Guides and contributors. <a href="https://www.privacyguides.org/about/privacy-policy/">Privacy Policy</a>.
 
 extra:
   generator: false
@@ -24,12 +24,9 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.social/@privacyguides
       name: Mastodon
-    - icon: simple/twitter
-      link: https://twitter.com/privacy_guides
-      name: Twitter
-    - icon: simple/github
-      link: https://github.com/privacyguides
-      name: GitHub
+    - icon: simple/rss
+      link: /feed_rss_created.xml
+      name: RSS
 
 repo_url: https://github.com/privacyguides/blog.privacyguides.org
 repo_name: ""
