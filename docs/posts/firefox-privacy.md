@@ -1,12 +1,14 @@
 ---
 date: 2019-11-09
 categories:
-    - Browsers
     - Software
 authors:
     - jonaharagon
 links:
     - posts/firefox-privacy-2021-update.md
+tags:
+    - Browsers
+    - Firefox
 ---
 # Firefox Privacy: Tips and Tricks for Better Browsing
 

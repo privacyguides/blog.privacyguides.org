@@ -1,12 +1,14 @@
 ---
 date: 2021-12-01
 categories:
-    - Browsers
     - Software
 authors:
     - dngray
 links:
     - 'Desktop Browsers<br><small>Firefox</small>': https://www.privacyguides.org/desktop-browsers/#firefox
+tags:
+    - Browsers
+    - Firefox
 ---
 # Firefox Privacy: 2021 Update
 

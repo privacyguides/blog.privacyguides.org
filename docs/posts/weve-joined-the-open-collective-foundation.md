@@ -6,6 +6,8 @@ authors:
     - jonaharagon
 links:
     - posts/welcome-to-privacy-guides.md
+tags:
+    - Privacy Guides
 ---
 # We've joined the Open Collective Foundation 501(c)(3)
 

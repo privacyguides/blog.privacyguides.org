@@ -6,6 +6,8 @@ authors:
     - freddy-m
 links:
     - posts/us-government-continues-encryption-war.md
+tags:
+    - Government
 ---
 # US Government Wages War on Encryption
 

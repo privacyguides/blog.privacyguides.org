@@ -9,6 +9,8 @@ authors:
 links:
     - 'About Privacy Guides': "https://www.privacyguides.org/about/"
     - posts/weve-joined-the-open-collective-foundation.md
+tags:
+    - Privacy Guides
 ---
 # Welcome to Privacy Guides
 

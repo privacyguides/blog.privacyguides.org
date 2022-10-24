@@ -8,6 +8,8 @@ links:
     - posts/move-fast-and-break-things.md
     - posts/why-i-run-a-tor-relay.md
     - posts/us-government-wages-war-on-encryption.md
+tags:
+    - Facebook
 ---
 # Virtual Insanity
 

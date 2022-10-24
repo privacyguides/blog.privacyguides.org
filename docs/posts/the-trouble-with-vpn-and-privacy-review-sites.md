@@ -1,7 +1,6 @@
 ---
 date: 2019-11-20
 categories:
-    - Virtual Private Networks
     - Opinion
 authors:
     - jonaharagon
@@ -9,6 +8,8 @@ links:
     - Choosing a VPN: https://www.jonaharagon.com/posts/choosing-a-vpn/
     - Understanding VPNs: https://www.jonaharagon.com/posts/understanding-vpns/
     - VPN Recommendations: https://www.privacyguides.org/vpn/
+tags:
+    - VPN
 ---
 # The Trouble with VPN and Privacy Review Sites
 

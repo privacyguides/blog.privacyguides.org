@@ -89,6 +89,18 @@ plugins:
     cards_font: 'Public Sans'
   blog:
     blog_dir: .
+    categories_allowed:
+      - Announcements
+      - Opinion
+      - Software
+      - Hardware
+      - Android
+      - iOS
+      - Linux
+      - macOS
+      - Windows
+      - Qubes OS
+      - Providers
   rss:
     match_path: posts/.*
     date_from_meta:
@@ -96,7 +108,8 @@ plugins:
     categories:
       - categories
       - tags
-  tags: {}
+  tags:
+    tags_file: tags.md
   search: {}
 
 markdown_extensions:
@@ -153,3 +166,4 @@ nav:
   - 'Forum': 'https://discuss.privacyguides.org/'
   - Blog:
     - 'index.md'
+    - 'tags.md'
