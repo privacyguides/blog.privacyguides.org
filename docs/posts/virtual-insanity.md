@@ -10,6 +10,7 @@ links:
     - posts/us-government-wages-war-on-encryption.md
 tags:
     - Facebook
+license: BY-SA
 ---
 # Virtual Insanity
 

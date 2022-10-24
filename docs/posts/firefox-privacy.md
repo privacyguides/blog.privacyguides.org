@@ -9,6 +9,7 @@ links:
 tags:
     - Browsers
     - Firefox
+license: BY-SA
 ---
 # Firefox Privacy: Tips and Tricks for Better Browsing
 

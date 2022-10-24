@@ -9,6 +9,7 @@ links:
 tags:
     - Browsers
     - Firefox
+license: CC0
 ---
 # Firefox Privacy: 2021 Update
 

@@ -8,6 +8,7 @@ links:
     - posts/us-government-wages-war-on-encryption.md
 tags:
     - Government
+license: BY-SA
 ---
 # US Government Continues Encryption War
 

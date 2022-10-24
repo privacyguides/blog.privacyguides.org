@@ -8,6 +8,7 @@ links:
     - posts/welcome-to-privacy-guides.md
 tags:
     - Privacy Guides
+license: CC0
 ---
 # We've joined the Open Collective Foundation 501(c)(3)
 

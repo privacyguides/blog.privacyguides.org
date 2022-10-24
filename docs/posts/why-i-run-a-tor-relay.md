@@ -9,6 +9,7 @@ links:
 tags:
     - Tor
     - Self-Hosting
+license: BY-SA
 ---
 # Why I Decided to Run a Tor Relay
 
@@ -37,4 +38,4 @@ At the time of writing my relay has been flagged ‘valid’, ‘running’ and 
 
 ---
 
-*Sam is an elearning designer and privacy advocate interested in free (libre) software and how it can protect civil liberties. This article was [originally published](https://web.archive.org/web/20200508115203/https://samhowell.uk/dark/blog/blog-Tor_Relay.html) on my personal blog at [samhowell.uk](https://samhowell.uk), on February 15th, 2019. It is made available under the [Creative Commons By-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Sam is an elearning designer and privacy advocate interested in free (libre) software and how it can protect civil liberties. This article was [originally published](https://web.archive.org/web/20200508115203/https://samhowell.uk/dark/blog/blog-Tor_Relay.html) on my personal blog at [samhowell.uk](https://samhowell.uk), on February 15th, 2019.*

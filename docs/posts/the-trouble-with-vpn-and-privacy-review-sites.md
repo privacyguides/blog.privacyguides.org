@@ -10,6 +10,7 @@ links:
     - VPN Recommendations: https://www.privacyguides.org/vpn/
 tags:
     - VPN
+license: BY-SA
 ---
 # The Trouble with VPN and Privacy Review Sites
 

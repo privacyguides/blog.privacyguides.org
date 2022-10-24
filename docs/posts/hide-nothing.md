@@ -9,6 +9,7 @@ links:
     - posts/choosing-the-right-messenger.md
 tags:
     - Government
+license: BY-SA
 ---
 # Hide Nothing
 

@@ -9,6 +9,7 @@ links:
     - posts/us-government-continues-encryption-war.md
 tags:
     - Facebook
+license: BY-SA
 ---
 # Move Fast and Break Things
 

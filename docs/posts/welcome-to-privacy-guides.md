@@ -11,6 +11,7 @@ links:
     - posts/weve-joined-the-open-collective-foundation.md
 tags:
     - Privacy Guides
+license: CC0
 ---
 # Welcome to Privacy Guides
 

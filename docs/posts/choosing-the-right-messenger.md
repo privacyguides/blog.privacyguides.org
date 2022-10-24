@@ -9,6 +9,7 @@ links:
     - Types of Communication Networks: https://www.privacyguides.org/real-time-communication/communication-network-types/
 tags:
     - Instant Messengers
+license: BY-SA
 ---
 # Choosing The Right Messenger
 
