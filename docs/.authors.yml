@@ -1,3 +1,7 @@
+contributors:
+  name: Contributors
+  description: Various Authors
+  avatar: https://github.com/privacyguides.png
 danarel:
   name: Dan Arel
   description: Guest Contributor
@@ -14,6 +18,18 @@ jonaharagon:
   name: Jonah
   description: Team Member
   avatar: https://github.com/jonaharagon.png
+kaitebay:
+  name: Kai Tebay
+  description: Team Member
+  avatar: https://github.com/kaitebay.png
+matchboxbananasynergy:
+  name: mbsynergy
+  description: Team Member
+  avatar: https://github.com/matchboxbananasynergy.png
+mfwmyfacewhen:
+  name: mfwmyfacewhen
+  description: Team Member
+  avatar: https://github.com/mfwmyfacewhen.png
 natebartram:
   name: Nate Bartram
   description: Guest Contributor
