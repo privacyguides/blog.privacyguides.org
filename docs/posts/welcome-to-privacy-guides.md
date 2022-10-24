@@ -4,6 +4,8 @@ categories:
     - Announcements
 authors:
     - jonaharagon
+    - dngray
+    - freddy-m
 ---
 # Welcome to Privacy Guides
 

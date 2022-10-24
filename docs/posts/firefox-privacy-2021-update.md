@@ -60,4 +60,4 @@ This includes **all** extensions that try to change the user agent or other brow
 
 ----------
 
-_Special thanks to [Thorin-Oakenpants](https://github.com/Thorin-Oakenpants) and [Tommy](https://tommytran.io) for their help with providing advice and further documentation during the research phase.
+*Special thanks to [Thorin-Oakenpants](https://github.com/Thorin-Oakenpants) and [Tommy](https://tommytran.io) for their help with providing advice and further documentation during the research phase.*
