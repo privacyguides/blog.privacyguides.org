@@ -103,6 +103,7 @@ plugins:
       - Providers
   rss:
     match_path: posts/.*
+    abstract_chars_count: -1
     date_from_meta:
       as_creation: date
     categories:
