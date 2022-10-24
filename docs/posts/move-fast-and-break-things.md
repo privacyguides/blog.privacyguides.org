@@ -4,6 +4,9 @@ categories:
     - Opinion
 authors:
     - freddy-m
+links:
+    - posts/virtual-insanity.md
+    - posts/us-government-continues-encryption-war.md
 ---
 # Move Fast and Break Things
 

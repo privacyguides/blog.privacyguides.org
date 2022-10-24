@@ -4,6 +4,8 @@ categories:
     - Opinion
 authors:
     - sam-howell
+links:
+    - 'Tor Network<br><small>Relays and Bridges</small>': https://www.privacyguides.org/tor/#relays-and-bridges
 ---
 # Why I Decided to Run a Tor Relay
 

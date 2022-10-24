@@ -5,6 +5,10 @@ categories:
     - Opinion
 authors:
     - jonaharagon
+links:
+    - Choosing a VPN: https://www.jonaharagon.com/posts/choosing-a-vpn/
+    - Understanding VPNs: https://www.jonaharagon.com/posts/understanding-vpns/
+    - VPN Recommendations: https://www.privacyguides.org/vpn/
 ---
 # The Trouble with VPN and Privacy Review Sites
 

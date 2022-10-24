@@ -4,6 +4,9 @@ categories:
     - Opinion
 authors:
     - natebartram
+links:
+    - 'Threat Modeling<br><small>Creating Your Threat Model</small>': https://www.privacyguides.org/basics/threat-modeling/
+    - posts/choosing-the-right-messenger.md
 ---
 # Security, Privacy, and Anonymity
 
@@ -47,4 +50,4 @@ These three concepts are not necessarily dependent on each other. A secure produ
 
 ---
 
-Originally published on [The New Oil](https://web.archive.org/web/20210729190743/https://thenewoil.xyz/privsecanon.html).
+*Originally published on [The New Oil](https://web.archive.org/web/20210729190743/https://thenewoil.xyz/privsecanon.html).*

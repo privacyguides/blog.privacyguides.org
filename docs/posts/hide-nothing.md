@@ -4,6 +4,9 @@ categories:
     - Opinion
 authors:
     - danarel
+links:
+    - posts/move-fast-and-break-things.md
+    - posts/choosing-the-right-messenger.md
 ---
 # Hide Nothing
 

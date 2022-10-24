@@ -5,6 +5,8 @@ categories:
     - Software
 authors:
     - dngray
+links:
+    - 'Desktop Browsers<br><small>Firefox</small>': https://www.privacyguides.org/desktop-browsers/#firefox
 ---
 # Firefox Privacy: 2021 Update
 

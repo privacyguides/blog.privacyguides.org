@@ -5,6 +5,9 @@ categories:
     - Software
 authors:
     - danarel
+links:
+    - Real Time Communication: https://www.privacyguides.org/real-time-communication/
+    - Types of Communication Networks: https://www.privacyguides.org/real-time-communication/communication-network-types/
 ---
 # Choosing The Right Messenger
 

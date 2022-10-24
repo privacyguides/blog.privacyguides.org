@@ -4,6 +4,8 @@ categories:
     - Opinion
 authors:
     - freddy-m
+links:
+    - posts/us-government-continues-encryption-war.md
 ---
 # US Government Wages War on Encryption
 

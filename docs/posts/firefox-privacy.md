@@ -5,6 +5,8 @@ categories:
     - Software
 authors:
     - jonaharagon
+links:
+    - posts/firefox-privacy-2021-update.md
 ---
 # Firefox Privacy: Tips and Tricks for Better Browsing
 

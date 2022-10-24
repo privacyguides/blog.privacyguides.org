@@ -6,6 +6,9 @@ authors:
     - jonaharagon
     - dngray
     - freddy-m
+links:
+    - 'About Privacy Guides': "https://www.privacyguides.org/about/"
+    - posts/weve-joined-the-open-collective-foundation.md
 ---
 # Welcome to Privacy Guides
 
