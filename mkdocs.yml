@@ -159,7 +159,7 @@ extra_javascript:
 
 nav:
   - Home: 'https://www.privacyguides.org/'
-  - 'Knowledge Base': 'https://www.privacyguides.org/basics/threat-modeling'
+  - 'Knowledge Base': 'https://www.privacyguides.org/kb/'
   - 'Recommendations': 'https://www.privacyguides.org/tools/'
   - 'About': 'https://www.privacyguides.org/about/'
   - 'Donate': 'https://www.privacyguides.org/about/donate/'
