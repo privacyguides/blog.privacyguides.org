@@ -7,6 +7,7 @@ authors:
 links:
     - posts/firefox-privacy-2021-update.md
 tags:
+    - Guide
     - Browsers
     - Firefox
 license: BY-SA

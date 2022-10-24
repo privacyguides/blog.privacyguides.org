@@ -6,9 +6,11 @@ authors:
     - contributors
 links:
     - Metadata Removal Tools: https://www.privacyguides.org/data-redaction/
+tags:
+    - Guide
 license: BY-SA
 ---
-# Integrating Metadata Removal
+# Removing Metadata from Your Photos, Videos, and Other Files
 
 When sharing files, it's important to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data, and sometimes photos even include GPS coordinates within its metadata.<!-- more -->
 

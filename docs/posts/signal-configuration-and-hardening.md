@@ -7,11 +7,12 @@ authors:
 categories:
     - Software
 tags:
+    - Guide
     - Signal
     - Molly
 license: BY-SA
 ---
-# Signal Configuration and Hardening
+# 2022 Signal Configuration and Hardening Guide
 
 [Signal](https://www.privacyguides.org/real-time-communication#signal) is a widely regarded instant messaging service that is not only easy to use but is also private and secure. Signal's strong E2EE implementation and metadata protections provide a level of assurance that only you and your intended recipients are able to read communications.<!-- more -->
 

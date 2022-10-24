@@ -7,6 +7,8 @@ authors:
 links:
     - 'Threat Modeling<br><small>Creating Your Threat Model</small>': https://www.privacyguides.org/basics/threat-modeling/
     - posts/choosing-the-right-messenger.md
+tags:
+    - Security
 license: BY
 ---
 # Security, Privacy, and Anonymity

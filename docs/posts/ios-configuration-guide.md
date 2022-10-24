@@ -5,13 +5,12 @@ categories:
 authors:
     - mfwmyfacewhen
     - jonaharagon
-    - matchboxbananasynergy
-    - kaitebay
     - contributors
-icon: material/toggle-switch
+tags:
+    - Guide
 license: BY-SA
 ---
-# iOS Configuration Guide
+# iOS 16 Privacy Configuration Guide
 
 There are a number of privacy and security-related settings you should consider changing in the **Settings** app on iOS.<!-- more -->
 

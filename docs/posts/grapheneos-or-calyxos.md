@@ -12,7 +12,7 @@ links:
     - Android Recommendations: https://www.privacyguides.org/android/
 license: BY-SA
 ---
-# GrapheneOS or CalyxOS?
+# Should You Use GrapheneOS or CalyxOS?
 
 GrapheneOS and CalyxOS are often compared as similar options for people looking for an alternative Android OS for their Pixel devices. Below are some of the reasons why we recommend GrapheneOS over CalyxOS.<!-- more -->
 

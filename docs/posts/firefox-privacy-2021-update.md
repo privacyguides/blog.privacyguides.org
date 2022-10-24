@@ -7,6 +7,7 @@ authors:
 links:
     - 'Desktop Browsers<br><small>Firefox</small>': https://www.privacyguides.org/desktop-browsers/#firefox
 tags:
+    - Guide
     - Browsers
     - Firefox
 license: CC0

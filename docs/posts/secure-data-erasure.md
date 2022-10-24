@@ -7,13 +7,17 @@ authors:
     - contributors
 links:
     - 'Encryption<br><small>OS Full Disk Encryption</small>': https://www.privacyguides.org/encryption#os-full-disk-encryption
+tags:
+    - Guide
+    - Security
 license: BY-SA
 ---
-# Secure Data Erasure
+# Erasing Data Securely from Your SSD or HDD
 
 **Erasing data** from your computer may seem like a simple task, but if you want to make sure the data is truly unrecoverable, there are some things you should consider.<!-- more -->
 
 !!! tip
+
     You should use [full disk encryption](https://www.privacyguides.org/encryption#os-full-disk-encryption) on your storage devices. If your device is stolen or needs to be returned under warranty your privacy may be at risk.
 
 To erase a storage device **thoroughly**, you should securely erase the whole device and not individual files.

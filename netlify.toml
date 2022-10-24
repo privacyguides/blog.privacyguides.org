@@ -1,0 +1,6 @@
+[build]
+    publish = "site/"
+    command = "mkdocs build"
+
+[context.production.environment]
+    CARDS = "true"

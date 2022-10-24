@@ -4,9 +4,12 @@ categories:
     - Linux
 authors:
     - contributors
+tags:
+    - Guide
+    - Security
 license: BY-SA
 ---
-# Linux System Hardening
+# Hardening Your Desktop Linux System's Security
 
 There are a number of procedures you can follow to make your Linux desktop system more secure, some more advanced than others. We cover some general techniques here.<!-- more -->
 
