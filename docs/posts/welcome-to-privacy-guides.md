@@ -21,7 +21,7 @@ As we [announced](https://web.archive.org/web/20210729184422/https://blog.privac
 
 We chose the name Privacy Guides because it represents two things for us as an organization: An expansion beyond simple recommendation lists, and a goal of acting as the trusted guides to anyone newly learning about protecting their personal data.
 
-As a name, it moves us past recommendations of various tools and focuses us more on the bigger picture. We want to provide more _education_ — rather than _direction_ — surrounding privacy-related topics. You can see the very beginnings of this work in our new page on [threat modeling](https://www.privacyguides.org/basics/threat-modeling/), or our [VPN](https://www.privacyguides.org/vpn) and [Email Provider](https://www.privacyguides.org/email) recommendations, but this is just the start of what we eventually hope to accomplish.
+As a name, it moves us past recommendations of various tools and focuses us more on the bigger picture. We want to provide more *education* — rather than *direction* — surrounding privacy-related topics. You can see the very beginnings of this work in our new page on [threat modeling](https://www.privacyguides.org/basics/threat-modeling/), or our [VPN](https://www.privacyguides.org/vpn) and [Email Provider](https://www.privacyguides.org/email) recommendations, but this is just the start of what we eventually hope to accomplish.
 
 ## Website Development
 
@@ -59,7 +59,7 @@ We are all very excited about this new brand and direction, and hope to have you
 
 ---
 
-**_Privacy Guides_** _is a socially motivated website that provides information for protecting your data security and privacy._
+***Privacy Guides*** *is a socially motivated website that provides information for protecting your data security and privacy.*
 
 - [Join r/PrivacyGuides on Reddit](https://www.reddit.com/r/privacyguides)
 - [Follow @privacy_guides on Twitter](https://twitter.com/privacy_guides)

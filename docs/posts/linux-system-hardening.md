@@ -22,7 +22,8 @@ Red Hat distributions (such as Fedora) are typically configured through [firewal
 You could also set your default firewall zone to drop packets. If you're on a Redhat based distribution, such as Fedora this can be done with the following commands:
 
 !!! Example
-    ```
+
+    ```bash
     firewall-cmd --set-default-zone=drop;
     firewall-cmd --add-protocol=ipv6-icmp --permanent;
     firewall-cmd --add-service=dhcpv6-client --permanent;
@@ -108,16 +109,28 @@ On Red Hat distributions you can use [`authselect`](https://access.redhat.com/do
 ```bash
 sudo authselect select <profile_id, default: sssd> with-faillock without-nullok with-pamaccess
 ```
+
 On systems where [`pam_faillock`](https://man7.org/linux/man-pages/man8/pam_tally.8.html) is not available, consider using [`pam_tally2`](https://man7.org/linux/man-pages/man8/pam_tally.8.html) instead.
+
 ## USB port protection
+
 To better protect your [USB](https://en.wikipedia.org/wiki/USB) ports from attacks such as [BadUSB](https://en.wikipedia.org/wiki/BadUSB), we recommend [USBGuard](https://github.com/USBGuard/usbguard). USBGuard has [documentation](https://github.com/USBGuard/usbguard#documentation) as does the [Arch Wiki](https://wiki.archlinux.org/title/USBGuard).
+
 Another alternative option if you’re using the [linux-hardened](#linux-hardened) is the [`deny_new_usb`](https://github.com/GrapheneOS/linux-hardened/commit/96dc427ab60d28129b36362e1577b6673b0ba5c4) sysctl. See [Preventing USB Attacks with `linux-hardened`](https://blog.lizzie.io/preventing-usb-attacks-with-linux-hardened.html).
+
 ## Secure Boot
+
 [Secure Boot](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_Boot) can be used to secure the boot process by preventing the loading of [unsigned](https://en.wikipedia.org/wiki/Public-key_cryptography) [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) drivers or [boot loaders](https://en.wikipedia.org/wiki/Bootloader).
+
 One of the problems with Secure Boot, particularly on Linux is, that only the [chainloader](https://en.wikipedia.org/wiki/Chain_loading#Chain_loading_in_boot_manager_programs) (shim), the [boot loader](https://en.wikipedia.org/wiki/Bootloader) (GRUB), and the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) are verified and that's where verification stops. The [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk) is often left unverified, unencrypted, and open up the window for an [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attack. The firmware on most devices is also configured to trust Microsoft's keys for Windows and its partners, leading to a large attacks surface.
+
 To eliminate the need to trust Microsoft's keys, follow the "Using your own keys" section on the [Arch Wiki](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot). The important thing that needs to be done here is to replace the OEM's key with your own Platform Key.
+
 - If you enroll your own keys as described above, and your distribution supports Secure Boot by default, you can add your distribution's EFI Key into the list of trusted keys (db keys). It can then be enrolled into the firmware. Then, you should move all of your keys off your local storage device.
 - If you enroll your own keys as described above, and your distribution does **not** support Secure Boot out of the box (like Arch Linux), you have to leave the keys on the disk and setup automatic signing of the [kernel](https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface/Secure_Boot#Signing_the_kernel_with_a_pacman_hook) and bootloader. If you are using Grub, you can install it with the `--no-shim-lock` option and remove the need for the chainloader.
+
 The second option is to creating an [EFI Boot Stub](https://wiki.archlinux.org/title/Unified_kernel_image) that contains the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)), [initramfs](https://en.wikipedia.org/wiki/Initial_ramdisk), and [microcode](https://en.wikipedia.org/wiki/Microcode). This EFI stub can then be signed. If you use [dracut](https://en.wikipedia.org/wiki/Dracut_(software)) this can easily be done with the [`--uefi-stub` switch](https://man7.org/linux/man-pages/man8/dracut.8.html) or the [`uefi_stub` config](https://www.man7.org/linux/man-pages/man5/dracut.conf.5.html) option. This option also requires you to leave the keys on the disk to setup automatic signing, which weakens the security model.
+
 After setting up Secure Boot it is crucial that you set a “firmware password” (also called a “supervisor password”, “BIOS password” or “UEFI password”), otherwise an adversary can simply disable Secure Boot.
+
 These recommendations can make you a little more resistant to [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack) attacks, but they not good as a proper verified boot process such as that found on [Android](https://source.android.com/security/verifiedboot), [ChromeOS](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview/#verified-boot), [macOS](https://support.apple.com/en-us/HT208198), or [Windows](https://docs.microsoft.com/en-us/windows/security/information-protection/secure-the-windows-10-boot-process).

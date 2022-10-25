@@ -13,7 +13,7 @@ license: BY-SA
 
 Some sandboxing solutions for desktop Linux distributions do exist, however they are not as strict as those found in macOS or ChromeOS. Applications installed from the package manager (`dnf`, `apt`, etc.) typically have **no** sandboxing or confinement whatsoever. Below are a few projects that aim to solve this problem:<!-- more -->
 
-### Flatpak
+## Flatpak
 
 [Flatpak](https://flatpak.org) aims to be a universal package manager for Linux. One of its main functions is to provide a universal package format which can be used in most Linux distributions. It provides some [permission control](https://docs.flatpak.org/en/latest/sandbox-permissions.html).However, [it is known](https://madaidans-insecurities.github.io/linux.html#flatpak) that Flatpak sandboxing could be improved as particular Flatpaks often have greater permission than required. There does seem to be [some agreement](https://theevilskeleton.gitlab.io/2021/02/11/response-to-flatkill-org.html) that this is the case.
 
@@ -31,13 +31,13 @@ We also recommend restricting broad filesystem permissions such as `filesystem=h
 
 Hard-coded access to some kernel interfaces like [`/sys`](https://en.wikipedia.org/wiki/Sysfs) and [`/proc`](https://en.wikipedia.org/wiki/Procfs#Linux) and weak [seccomp](https://en.wikipedia.org/wiki/Seccomp) filters unfortunately cannot be secured with Flatpak.
 
-### Firejail
+## Firejail
 
 [Firejail](https://firejail.wordpress.com/) is another method of sandboxing. As it is a large [setuid](https://en.wikipedia.org/wiki/Setuid) binary, it has a large attack surface which may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation).
 
 [This post from a Whonix security researcher](https://madaidans-insecurities.github.io/linux.html#firejail) provides additional details on how Firejail can worsen the security of your device.
 
-### Mandatory Access Control
+## Mandatory Access Control
 
 [Mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) systems require policy files in order to force constraints on the system.
 
@@ -51,7 +51,7 @@ Arch and Arch-based operating systems often do not come with a mandatory access 
 
 Linux desktops don't usually include individual app confinement rules, unlike Android which sandboxes every application installed.
 
-### Making your own policies/profiles
+## Making your own policies/profiles
 
 You can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, and [seccomp](https://en.wikipedia.org/wiki/Seccomp) blacklist to have better confinement of applications. This is an advanced and sometimes tedious task, so we won’t go into detail about how to do it here, but we do have a few projects that you could use as reference.
 
@@ -60,7 +60,7 @@ You can make your own AppArmor profiles, SELinux policies, Bubblewrap profiles, 
 - noatsecure’s [SELinux templates](https://github.com/noatsecure/hardhat-selinux-templates)
 - Seirdy’s [Bubblewrap scripts](https://sr.ht/~seirdy/bwrap-scripts)
 
-### Securing Linux containers
+## Securing Linux containers
 
 If you’re running a server, you may have heard of Linux Containers, Docker, or Podman which refer to a kind of [OS-level virtualization](https://en.wikipedia.org/wiki/OS-level_virtualization). Containers are more common in server and development environments where individual apps are built to operate independently.
 

@@ -32,9 +32,9 @@ And even if you break away from the legal aspects, we all have something to hide
 In July of 2021, a Catholic priest by the name of Jeffrey Burrill lost his job and was forced to resign after data collected through his cell phone showed that he was active on the gay dating app Grindr, and that he had visited multiple gay bars in the area. [According](https://www.washingtonpost.com/religion/2021/07/20/bishop-misconduct-resign-burrill/) to the *Washington Post*:
 
 > “A mobile device correlated to Burrill emitted app data signals from the location-based hookup app Grindr on a near-daily basis during parts of 2018, 2019, and 2020 —– at both his USCCB office and his USCCB-owned residence, as well as during USCCB meetings and events in other cities,” the Pillar reported.
-
+>
 > “The data obtained and analyzed by The Pillar conveys mobile app date signals during two 26-week periods, the first in 2018 and the second in 2019 and 2020. The data was obtained from a data vendor and authenticated by an independent data consulting firm contracted by The Pillar,” the site reported. It did not identify who the vendor was or if the site bought the information or got it from a third party.
-
+>
 > The Pillar story says app data “correlated” to Burrill's phone shows the priest visited gay bars, including while traveling for the USCCB.
 
 While it was not clear who was tracking Burrill's device, the Post went on to say that:
