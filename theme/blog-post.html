@@ -59,11 +59,23 @@
               <li class="md-nav__item">
                 <div class="md-nav__link">
                   {% include ".icons/material/calendar.svg" %}
-                  <time datetime="{{ page.meta.date }}" class="md-ellipsis">
+                  <time datetime="{{ page.meta.date }}" class="md-ellipsis" title="Original Post Date">
                     {{- page.meta.date_format -}}
                   </time>
                 </div>
               </li>
+
+              <!-- Updated date -->
+              {% if page.meta.updated %}
+                <li class="md-nav__item">
+                  <div class="md-nav__link">
+                    {% include ".icons/material/calendar-edit.svg" %}
+                    <time datetime="{{ page.meta.updated }}" class="md-ellipsis" title="Date Updated">
+                      {{- page.meta.updated.strftime('%B %d, %Y') -}}
+                    </time>
+                  </div>
+                </li>
+              {% endif %}
 
               <!-- Page categories -->
               {% if page.categories %}
