@@ -36,3 +36,5 @@ As outlined in this [issue](https://github.com/signalapp/Signal-Android/issues/1
 While this change makes sense from the perspective of making it so you cannot "hold a number hostage" as long as you keep checking in, it is particularly important for people who've used disposable phone numbers to know this.
 
 We recommend migrating to a phone number that you own and will be able to own for the foreseeable future in order to avoid getting locked out of your account and losing your contacts.
+
+*Special thanks to the [Molly](https://molly.im) community who made us aware of this change soon after it went live.*
