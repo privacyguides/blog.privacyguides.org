@@ -15,7 +15,7 @@ license: BY-SA
 ---
 # Important Changes to Signal Registration and Registration Lock
 
-There has been a recent change to how Signal handles registration which primarily affects people who are using a number that they don't have exclusive access to for Signal.
+Signal has changed how it handles registration. This primarily affects people who are using a number that they don't have exclusive access to for Signal.
 
 ## How It Used to Work
 
@@ -33,4 +33,6 @@ As outlined in this [issue](https://github.com/signalapp/Signal-Android/issues/1
 >
 >The intention of reglock is to prevent hijacking of numbers you actually own, not to guarantee the number for yourself for life.
 
-While this change makes sense from the perspective of making it so you cannot "hold a number hostage" as long as you keep checking in, it is particularly important for people who've used disposable phone numbers to know this. We recommend migrating to a phone number that you own and will be able to own for the foreseeable future in order to avoid getting locked out of your account and losing your contacts.
+While this change makes sense from the perspective of making it so you cannot "hold a number hostage" as long as you keep checking in, it is particularly important for people who've used disposable phone numbers to know this.
+
+We recommend migrating to a phone number that you own and will be able to own for the foreseeable future in order to avoid getting locked out of your account and losing your contacts.
