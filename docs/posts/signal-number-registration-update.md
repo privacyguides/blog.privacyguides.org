@@ -27,9 +27,9 @@ As outlined in this [issue](https://github.com/signalapp/Signal-Android/issues/1
 
 >If Alice registers number X and enables reglock, but Bob later proves ownership of number X (by registering and completing the SMS code), then Alice will >be unregistered. However, if a reglock is present, Bob still won't be able to register immediately if he does not know the reglock code. This allows >reglock to still function as a way to prevent someone else from taking over your account.
 >
->However, by unregistering Alice, this starts a 7-day timer. After 7 days, if Alice doesn't re-register, then the reglock is removed and Bob will be free >to register the number without needing to know the reglock. But if Alice still truly does own the number, she can simply re-prove ownership and things >should go back to normal for her.
+>However, by unregistering Alice, this starts a 7-day timer. After 7 days, if Alice doesn't re-register, then the reglock is removed and Bob will be free to register the number without needing to know the reglock. But if Alice still truly does own the number, she can simply re-prove ownership and things should go back to normal for her.
 >
->This is important because phone number can (and are) re-used among cell carriers. If someone gets a new phone number from their carrier, they should not >be prevented from registering with Signal indefinitely because the previous owner has reglock.
+>This is important because phone number can (and are) re-used among cell carriers. If someone gets a new phone number from their carrier, they should not be prevented from registering with Signal indefinitely because the previous owner has reglock.
 >
 >The intention of reglock is to prevent hijacking of numbers you actually own, not to guarantee the number for yourself for life.
 
