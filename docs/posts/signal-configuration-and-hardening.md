@@ -1,5 +1,6 @@
 ---
 date: 2022-07-07
+updated: 2022-11-10
 authors:
     - contributors
     - matchboxbananasynergy
@@ -29,6 +30,8 @@ Additionally, your Signal PIN can also double as a registration lock that preven
 !!! attention "Registration Lock"
 
     The server will not enforce the registration lock after 7 days of inactivity. After that, someone will be able to reset the PIN at registration and register with your phone number. This will wipe the data stored in your Signal account, as it is encrypted by the PIN, but it won't prevent someone from registering with your number provided that they can receive a text on it.
+
+**Important update**: since this blog post was published, there have been changes to the registration flow for Signal. You should read about this [here](signal-number-registration-update.md).
 
 If you haven't set up a Signal PIN, or have previously opted out of setting one up, follow these steps on Android/iOS:
 
