@@ -37,4 +37,6 @@ While this change makes sense from the perspective of making it so you cannot "h
 
 We recommend migrating to a phone number that you own and will be able to own for the foreseeable future in order to avoid getting locked out of your account and losing your contacts.
 
+---
+
 *Special thanks to the [Molly](https://molly.im) community who made us aware of this change soon after it went live.*
