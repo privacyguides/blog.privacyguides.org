@@ -19,7 +19,7 @@ Signal has changed how it handles registration. This primarily affects people wh
 
 ## How It Used to Work
 
-As outlined in our previous [Signal Configuration & Hardening Guide](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening/#signal-pin), if you registered a number with Signal, set up Registration Lock and checked into the app at least once every 7 days, nobody could use the number you'd claimed and try to re-register it for themselves without knowing your Registration Lock PIN.
+As outlined in our [Signal Configuration & Hardening Guide](signal-configuration-and-hardening.md#signal-pin), if you registered a number with Signal, set up Registration Lock and checked into the app at least once every 7 days, nobody could use the number you'd claimed and try to re-register it for themselves without knowing your Registration Lock PIN.
 
 ## How It Works Now
 
