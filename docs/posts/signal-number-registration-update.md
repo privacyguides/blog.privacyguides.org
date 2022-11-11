@@ -9,7 +9,7 @@ tags:
     - Signal
     - Instant Messengers
 links:
-    - Signal Configuration Guide: signal-configuration-and-hardening.md
+    - posts/signal-configuration-and-hardening.md
     - Real-Time Communication: https://www.privacyguides.org/real-time-communication/
 license: BY-SA
 ---
