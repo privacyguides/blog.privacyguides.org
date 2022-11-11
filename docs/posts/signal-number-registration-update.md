@@ -15,7 +15,7 @@ license: BY-SA
 ---
 # Important Changes to Signal Registration and Registration Lock
 
-Signal has changed how it handles registration. This primarily affects people who are using a number that they don't have exclusive access to for Signal.
+Signal has changed how it handles registration. This primarily affects people who are using a number for Signal that they don't have exclusive access to.
 
 ## How It Used to Work
 
