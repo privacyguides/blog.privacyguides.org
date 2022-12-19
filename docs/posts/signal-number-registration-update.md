@@ -29,7 +29,7 @@ As outlined in this [issue](https://github.com/signalapp/Signal-Android/issues/1
 
 You can find the relevant changes in the code [here](https://github.com/signalapp/Signal-Server/commit/80a3a8a43c8698be9f561a42762ffafe2db1409b#diff-c99f1a5184455de55e73623642ad010e2269a2d217a911e6bcf8f6bc8a79f6eaR484).
 
->If Alice registers number X and enables reglock, but Bob later proves ownership of number X (by registering and completing the SMS code), then Alice will >be unregistered. However, if a reglock is present, Bob still won't be able to register immediately if he does not know the reglock code. This allows >reglock to still function as a way to prevent someone else from taking over your account.
+>If Alice registers number X and enables reglock, but Bob later proves ownership of number X (by registering and completing the SMS code), then Alice will be unregistered. However, if a reglock is present, Bob still won't be able to register immediately if he does not know the reglock code. This allows reglock to still function as a way to prevent someone else from taking over your account.
 >
 >However, by unregistering Alice, this starts a 7-day timer. After 7 days, if Alice doesn't re-register, then the reglock is removed and Bob will be free to register the number without needing to know the reglock. But if Alice still truly does own the number, she can simply re-prove ownership and things should go back to normal for her.
 >
