@@ -36,7 +36,11 @@ Once you have your boot media, enter your system's UEFI settings and boot from t
 
 ### Flash Storage
 
-For [flash memory](https://en.wikipedia.org/wiki/Flash_memory) (SSD, NVMe, etc) devices we suggest the ATA Secure Erase command. Methods such as `nwipe` should not be used on flash storage devices as it may damage their performance. The "Secure Erase" feature is often accessible through the UEFI setup menu.
+For [flash memory](https://en.wikipedia.org/wiki/Flash_memory) (SSD, NVMe, etc) devices we suggest the ATA Secure Erase command. Methods such as `nwipe` should not be used on flash storage devices as it may damage their performance. The "Secure Erase" feature is often accessible through the UEFI setup menu. NVMe storage can be erased using the [`nvme-cli`](https://github.com/linux-nvme/nvme-cli) tools. For that see:
+
+```text
+nvme format /dev/nvme0 -s 2 -n 1
+```
 
 It is also possible to complete a Secure Erase using the [`hdparm`](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase) command, or [Microsoft Secure Group Commands](https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/security-group-commands).
 
