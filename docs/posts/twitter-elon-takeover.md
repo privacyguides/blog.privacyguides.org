@@ -16,7 +16,7 @@ license: BY-SA
 
 Dreams sometimes come true. That is, if you happen to be the world's richest man. Elon Musk owns Twitter. The birdsite is *his*.
 
-Elon clearly adores Twitter. He might appear to be a natural for it. Hooked to science fiction as a kid - he was 'almost too obvious to bully' in the [words](https://spectatorworld.com/topic/elon-musk-public-eccentricity/) of one journalist. Like a poorly scripted boy-genius in an budget film, Musk now owns the company he so loved. The classic Nerd-cum-Silicon-Valley-CEO. The habitual tweeter who became the self-proclaimed 'Chief Twit'.
+Elon clearly adores Twitter. He might appear to be a natural for it. Hooked to science fiction as a kid - he was 'almost too obvious to bully' in the [words](https://spectatorworld.com/topic/elon-musk-public-eccentricity/) of one journalist. Like a poorly scripted boy-genius in an budget film, Musk now owns the company he so loved. The classic Nerd-cum-Silicon-Valley-CEO. The habitual tweeter who became the self-proclaimed 'Chief Twit'.<!-- more -->
 
 But it wasn't easy. To takeover the site Musk had to conduct himself unlike any other self-respecting billionaire. In fairness, this wasn't too hard for him: Musk has never behaved like a normal billionaire. He hoarded Twitter shares before accepting then declining to join the board of directors. (As CEO, he has since abolished it and planted himself in its place as 'sole director'). Elon was tip-toeing closer to controlling the microblogging platform he so loved. Then the world's richest man took a stab in the dark. He offered to buy the company outright - and, eventually, they gave in. He was finally in charge.
 
