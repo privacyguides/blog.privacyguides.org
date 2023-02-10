@@ -226,6 +226,7 @@ On Android you can consider using **Molly**, a fork of the Signal mobile client 
 
     ??? downloads
 
+         - [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
          - [:simple-github: GitHub](https://github.com/mollyim/mollyim-android/releases)
 
 Molly offers two variants of the app: **Molly** and **Molly-FOSS**.
