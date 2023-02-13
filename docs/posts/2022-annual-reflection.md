@@ -10,6 +10,7 @@ tags:
     - Privacy Guides
 license: CC0
 ---
+# 2022 Annual Reflection
 
 We publish this annual update for our contributors on Open Collective, who will have also received this via email. This is what we've accomplished in 2022, and some of our upcoming plans for 2023!<!-- more -->
 
