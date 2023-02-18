@@ -6,7 +6,6 @@ authors:
     - freddy-m
 links:
     - posts/virtual-insanity.md
-    - posts/us-government-continues-encryption-war.md
 tags:
     - Facebook
 license: BY-SA
