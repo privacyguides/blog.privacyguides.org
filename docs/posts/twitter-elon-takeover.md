@@ -37,3 +37,7 @@ The site is [stuffed](https://www.theverge.com/2022/10/28/23428132/elon-musk-twi
 Musk is in a predicament. He now owns Twitter but doesn't *really* know what to do with it. Having made a point of firing large swathes of the social media giant's workforce, the electric car baron seems to [want](https://www.bloomberg.com/news/articles/2022-11-06/twitter-now-asks-some-fired-workers-to-please-come-back) them back. He isn't even that great at tweeting. His memes are stolen, his jokes aren't that funny. Like the unpopular boy-wonder, perhaps he just wants to be cool? He seems to seek constant affirmation - and from the strangest places: random people on the internet.  He once called an earnest British caver 'pedo guy' after he helped rescue trapped Thai schoolboys. This might not be all he bargained for.
 
 Musk loves a big project. Sending rockets to Mars, thats his thing. But Twitter is bland, and no amount of tinkering will change this. Musk wants to launch metal objects into space and build self-driving cars - he doesn't want to fiddle around with moderation policies. The 'hellscape' Elon now presides over won't fill the void inside of him. He's probably always fancied running a social media company, perhaps as a strange attempt to outdo Mark Zuckerberg. Turns out it's not that fun.
+
+---
+
+_Originally published at [jottings.lol](https://jottings.lol/2022/12/bravo-elon)._
