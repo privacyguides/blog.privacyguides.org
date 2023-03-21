@@ -4,18 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs = "*"
 mkdocs-material = {path = "./mkdocs-material-insiders"}
-mkdocs-git-revision-date-localized-plugin = "*"
-typing-extensions = "*"
-mkdocs-rss-plugin = "*"
-mkdocs-git-committers-plugin-2 = "*"
-mkdocs-macros-plugin = "*"
-pillow = "*"
-cairosvg = "*"
+mkdocs-git-revision-date-localized-plugin = "~=1.2"
+typing-extensions = "~=4.5"
+mkdocs-rss-plugin = "~=1.6"
+mkdocs-git-committers-plugin-2 = "~=1.1"
+mkdocs-macros-plugin = "~=0.7"
+pillow = "~=9.4"
+cairosvg = "~=2.6"
 
 [dev-packages]
-scour = "*"
+scour = "~=0.38"
 
 [requires]
 python_version = "3.8"
