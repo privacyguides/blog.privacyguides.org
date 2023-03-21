@@ -1,0 +1,32 @@
+version: 2
+
+registries:
+
+  github-privacyguides:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.REPO_PAT}}
+
+updates:
+  
+  # Maintain submodules
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    registries:
+      - github-privacyguides
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for pipenv
+  - package-ecosystem: "pip"
+    directory: "/"
+    insecure-external-code-execution: allow
+    registries:
+      - github-privacyguides
+    schedule:
+      interval: "daily"
+    assignees:
+      - "jonaharagon"
+    reviewers:
+      - "jonaharagon"
