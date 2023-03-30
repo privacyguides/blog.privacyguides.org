@@ -4,7 +4,7 @@
 
 <!-- Page content -->
 {% block container %}
-  <div class="md-content md-content--post" data-md-component="content">
+  <div class="md-content md-content--post" data-md-component="content" itemscope itemtype="https://schema.org/NewsArticle">
 
     <!-- Sidebar -->
     <div
@@ -32,12 +32,13 @@
             {% if page.authors %}
               <div class="md-post__authors md-typeset">
                 {% for author in page.authors %}
-                  <div class="md-profile md-post__profile">
+                  <div class="md-profile md-post__profile" itemprop="author" itemscope itemtype="https://schema.org/{{ author.type|default("Person", true) }}">
                     <span class="md-author md-author--long">
-                      <img src="{{ author.avatar }}" alt="{{ author.name }}" />
+                      <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image" />
                     </span>
                     <span class="md-profile__description">
-                      <strong>{{ author.name }}</strong><br />
+                      <strong itemprop="name">{{ author.name }}</strong><br />
+                      <link itemprop="url" href="{{ author.url }}">
                       {{ author.description }}
                     </span>
                   </div>
@@ -59,7 +60,7 @@
               <li class="md-nav__item">
                 <div class="md-nav__link">
                   {% include ".icons/material/calendar.svg" %}
-                  <time datetime="{{ page.meta.date }}" class="md-ellipsis" title="Original Post Date">
+                  <time datetime="{{ page.meta.date }}" class="md-ellipsis" title="Original Post Date" itemprop="datePublished">
                     {{- page.meta.date_format -}}
                   </time>
                 </div>
@@ -70,7 +71,7 @@
                 <li class="md-nav__item">
                   <div class="md-nav__link">
                     {% include ".icons/material/calendar-edit.svg" %}
-                    <time datetime="{{ page.meta.updated }}" class="md-ellipsis" title="Date Updated">
+                    <time datetime="{{ page.meta.updated }}" class="md-ellipsis" title="Date Updated" itemprop="dateModified">
                       {{- page.meta.updated.strftime('%B %d, %Y') -}}
                     </time>
                   </div>
@@ -118,17 +119,17 @@
                     {% if page.meta.license == "BY" or page.meta.license == "BY-SA" or page.meta.license == "BY-NC" or page.meta.license == "BY-NC-SA" or page.meta.license == "BY-SA" or page.meta.license == "BY-ND" or page.meta.license == "BY-NC-ND" %}
                         {% include ".icons/material/creative-commons.svg" %}
                         <span class="md-ellipsis">
-                            <a href="https://creativecommons.org/licenses/{{ page.meta.license|lower }}/4.0/">{{ page.meta.license }} 4.0</a>
+                            <a itemprop="license" href="https://creativecommons.org/licenses/{{ page.meta.license|lower }}/4.0/">{{ page.meta.license }} 4.0</a>
                         </span>
                     {% elif page.meta.license == "CC0" %}
                         {% include ".icons/fontawesome/brands/creative-commons-zero.svg" %}
                         <span class="md-ellipsis">
-                            <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 (Public domain)</a>
+                            <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 (Public domain)</a>
                         </span>
                     {% elif page.meta.license == "Public domain" %}
                         {% include ".icons/fontawesome/brands/creative-commons-pd.svg" %}
                         <span class="md-ellipsis">
-                            <a href="https://creativecommons.org/publicdomain/zero/1.0/">Public domain</a>
+                            <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public domain</a>
                         </span>
                     {% elif page.meta.license %}
                         {% include ".icons/material/scale-balance.svg" %}
@@ -171,7 +172,62 @@
     <!-- Page content -->
     <article class="md-content__inner md-typeset">
       {% block content %}
-        {% include "partials/content.html" %}
+        <!-- Tags -->
+        {% if "material/tags" in config.plugins %}
+        {% include "partials/tags.html" %}
+        {% endif %}
+
+        <!-- Actions -->
+        {% include "partials/actions.html" %}
+
+        <!--
+        Hack: check whether the content contains a h1 headline. If it doesn't, the
+        page title (or respectively site name) is used as the main headline.
+        -->
+        {% if "\x3ch1" not in page.content %}
+        <h1 itemprop="headline">{{ page.title | d(config.site_name, true)}}</h1>
+        {% endif %}
+
+        <!-- Page content -->
+        <div itemprop="articleBody">
+        {{ page.content }}
+        </div>
+
+        <!-- Source file information -->
+        {% include "partials/source-file.html" %}
+
+        <!-- Was this page helpful? -->
+        {% include "partials/feedback.html" %}
+
+        <hr />
+
+        {% if page.meta.canonical %}
+        <div class="admonition note">
+          <p itemprop="creditText">This post was originally published at <a href="{{ page.meta.canonical }}">{{ page.meta.canonical }}</a></p>
+        </div>
+        {% endif %}
+
+        {% if page.authors %}
+        <div class="md-post__authors md-typeset">
+          {% for author in page.authors %}{% if author.description_long %}
+            <div class="md-profile md-post__profile">
+              <span class="md-author md-author--long">
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" />
+              </span>
+              <span class="md-profile__description">
+                <strong>{{ author.name }}</strong><br />
+                {{ author.description }}
+              </span>
+            </div>
+            <div class="md-profile md-post__profile">
+              <em>{{ author.description_long }}</em>
+            </div>
+          {% endif %}{% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Comment system -->
+        {% include "partials/comments.html" %}
       {% endblock %}
     </article>
   </div>

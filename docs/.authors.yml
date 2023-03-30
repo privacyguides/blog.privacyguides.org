@@ -1,13 +1,15 @@
 contributors:
-  name: Contributors
+  type: Organization
+  name: Privacy Guides
   description: Various Authors
   avatar: https://github.com/privacyguides.png
+  url: https://www.privacyguides.org
 danarel:
   name: Dan Arel
   description: Guest Contributor
   avatar: https://github.com/danarel.png
 niek-de-wilde:
-  name: Niek-de-Wilde
+  name: Niek de Wilde
   description: Team Member
   avatar: https://github.com/blacklight447.png
 dngray:
@@ -22,6 +24,10 @@ jonaharagon:
   name: Jonah
   description: Team Member
   avatar: https://github.com/jonaharagon.png
+  url: https://www.jonaharagon.com
+  description_long: |
+    <a href="https://www.jonaharagon.com">Jonah Aragon</a> is creating educational resources for average people to understand the importance of privacy and security on the internet, and take back control over their digital lives.
+    He is known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts, and the Privacy Guides non-profit website.
 kaitebay:
   name: Kai Tebay
   description: Team Member
