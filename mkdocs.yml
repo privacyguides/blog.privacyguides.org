@@ -73,7 +73,9 @@ watch:
 plugins:
   meta: {}
   privacy:
-    external_assets_exclude: ['https://cdn.jsdelivr.net/npm/mathjax@3/*', 'https://api.privacyguides.net/*']
+    external_assets_exclude:
+      - cdn.jsdelivr.net/npm/mathjax@3/*
+      - api.privacyguides.net/*
     external_links_noopener: true
   social:
     cards: !ENV [CARDS, false]
