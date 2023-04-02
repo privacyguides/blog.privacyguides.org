@@ -20,7 +20,9 @@ freddy-m:
   name: Freddy
   description: Team Member
   avatar: https://github.com/freddy-m.png
-jonaharagon:
+  url: https://freddy.lol
+  description_long: |
+    <a href="https://freddy.lol">Freddy</a> is a writer and privacy advocate and senior team member at Privacy Guides. He also edits the Privacy Guiides Blog.
   name: Jonah
   description: Team Member
   avatar: https://github.com/jonaharagon.png
@@ -30,11 +32,11 @@ jonaharagon:
     He is known for his work on the Techlore YouTube channel, including the Techlore Talks podcast he co-hosts, and the Privacy Guides non-profit website.
 kaitebay:
   name: Kai Tebay
-  description: Team Member
+  description: Former Team Member
   avatar: https://github.com/kaitebay.png
 matchboxbananasynergy:
   name: mbananasynergy
-  description: Team Member
+  description: Former Team Member
   avatar: https://github.com/matchboxbananasynergy.png
 mfwmyfacewhen:
   name: mfwmyfacewhen
