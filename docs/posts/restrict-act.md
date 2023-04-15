@@ -14,6 +14,8 @@ canonical: https://www.jonaharagon.com/posts/restrict-act/
 ---
 # Worried About TikTok? The RESTRICT Act Is Not the Answer Americans Are Looking For
 
+![Capitol Hill](../assets/images/restrict-act/cover.png)
+
 Privacy advocates have been calling for the United States to adopt strong consumer privacy protection laws along the lines of the EU's GDPR for a long time now, but the proposed *Restricting the Emergence of Security Threats that Risk Information and Communications Technology* (RESTRICT) *Act* isn't the answer we're looking for.<!-- more -->
 
 Terrible acronym aside, the RESTRICT Act claims to...

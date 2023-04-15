@@ -1,5 +1,10 @@
 {% extends "main.html" %}
 
+{% block extrahead %}
+{{ super() }}
+<meta name="robots" content="max-image-preview:large">
+{% endblock %}
+
 {% import "partials/nav-item.html" as item with context %}
 
 <!-- Page content -->

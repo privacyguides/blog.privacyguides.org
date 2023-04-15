@@ -11,12 +11,13 @@ tags:
     - Privacy Guides
 license: BY-SA
 ---
-
 # Privacy Guides is now multilingual
 
-It's finally here. After countless requests, Privacy Guides now has translations.<!-- more -->
+![](../assets/brand/PNG/Banner/cover.png)
 
-People have always asked us for translations to other languages because our team and community produces high quality, reliable, honest, and researched content. Our [previous site](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) never had a system for this. All translations were done manually, and translators would quickly lose interest. Translated sites would be outdated and lay unmaintained on domains that we didn't own. Privacy Guides now has a proper system.
+It's finally here. After countless requests, Privacy Guides now has translations.
+
+People have always asked us for translations to other languages because our team and community produces high quality, reliable, honest, and researched content. Our [previous site](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) never had a system for this. All translations were done manually, and translators would quickly lose interest. Translated sites would be outdated and lay unmaintained on domains that we didn't own. Privacy Guides now has a proper system.<!-- more -->
 
 Our site runs [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), which supports [internationalization](https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/). This allows us to provide language specific content without the mammoth effort previously required.
 

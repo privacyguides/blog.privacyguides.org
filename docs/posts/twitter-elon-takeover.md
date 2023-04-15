@@ -14,6 +14,8 @@ license: BY-SA
 
 # Twitter can't fill the void inside the world's richest man
 
+![](../assets/images/twitter-elon-takeover/cover.png)
+
 Dreams sometimes come true. That is, if you happen to be the world's richest man. Elon Musk owns Twitter. The birdsite is *his*.
 
 Elon clearly adores Twitter. He might appear to be a natural for it. Hooked to science fiction as a kid - he was 'almost too obvious to bully' in the [words](https://spectatorworld.com/topic/elon-musk-public-eccentricity/) of one journalist. Like a poorly scripted boy-genius in an budget film, Musk now owns the company he so loved. The classic Nerd-cum-Silicon-Valley-CEO. The habitual tweeter who became the self-proclaimed 'Chief Twit'.<!-- more -->
