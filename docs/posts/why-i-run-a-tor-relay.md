@@ -23,7 +23,7 @@ You discover the [Tor Project](https://www.torproject.org/)—or rather, you lea
 
 At the time of writing there are over 6,300 Tor relays, and I like to think this number will continue to grow steadily. Each one—no matter its uptime, bandwidth or overall reputation, or whether it’s a Guard, Middle or Exit—each one is the direct result of an individual deciding to sacrifice money, time and effort for the cause of fighting for a freer Internet: enabling millions of users—journalists, bloggers, whistleblowers, activists and everyday people like you and I—to communicate anonymously, and therefore safely, wherever we are in the world.
 
-Like many others, at first I was unsure about running my own relay. The usual doubts and questions arose: surely it's too difficult; I don’t know much about servers, and it’s surely expensive and beyond my skill-set to configure one as a Tor relay. But then I watched this talk by the articulate, intelligent and passionate Tor Project developer [Jacob Appelbaum](https://www.invidio.us/watch?v=Wl5OQz0Ko8c) (if you do nothing else today, watch it).
+Like many others, at first I was unsure about running my own relay. The usual doubts and questions arose: surely it's too difficult; I don’t know much about servers, and it’s surely expensive and beyond my skill-set to configure one as a Tor relay. But then I watched this talk ([Invidious Link](https://invidious.privacyguides.net/watch?v=Wl5OQz0Ko8c), [YouTube Link](https://youtube.com/watch?v=Wl5OQz0Ko8c)) by the articulate, intelligent and passionate Tor Project developer Jacob Appelbaum (if you do nothing else today, watch it).
 
 Jacob couldn’t have made a better case for direct action, requesting of the audience:
 
