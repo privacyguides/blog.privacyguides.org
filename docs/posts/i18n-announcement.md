@@ -34,7 +34,7 @@ We'd also like to remind everyone you can stay up to date with the main site by 
 
 The blog doesn't have releases, but articles are generally published in a complete state and only updated with minor changes.
 
-Feel free to check out our localization room on Matrix [#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh) if you have any questions on getting started. You can [find us on Crowdin](https://crwd.in/privacyguides).
+Feel free to check out our localization room on Matrix [#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh) if you have any questions on getting started. You can [find us on Crowdin](https://crowdin.com/project/privacyguides).
 
 Please note that the English version of the site is the primary version, meaning changes occur there first. This means it is still possible that specific languages may be behind. If you notice such an instance please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
 
