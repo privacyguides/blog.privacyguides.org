@@ -77,7 +77,7 @@
                   <div class="md-nav__link">
                     {% include ".icons/material/calendar-edit.svg" %}
                     <time datetime="{{ page.meta.updated }}" class="md-ellipsis" title="Date Updated" itemprop="dateModified">
-                      {{- page.meta.updated.strftime('%B %d, %Y') -}}
+                      {{- page.meta.updated.strftime('%B %-d, %Y') -}}
                     </time>
                   </div>
                 </li>
@@ -184,6 +184,10 @@
 
         <!-- Actions -->
         {% include "partials/actions.html" %}
+
+        {% if page.meta and page.meta.cover %}
+        <img class="cover" src="/{{ page.meta.cover }}">
+        {% endif %}
 
         <!--
         Hack: check whether the content contains a h1 headline. If it doesn't, the

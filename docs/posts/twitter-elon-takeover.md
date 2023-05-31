@@ -10,11 +10,9 @@ links:
 tags:
     - Twitter
 license: BY-SA
+cover: assets/images/twitter-elon-takeover/cover.png
 ---
-
 # Twitter can't fill the void inside the world's richest man
-
-![](../assets/images/twitter-elon-takeover/cover.png)
 
 Dreams sometimes come true. That is, if you happen to be the world's richest man. Elon Musk owns Twitter. The birdsite is *his*.
 

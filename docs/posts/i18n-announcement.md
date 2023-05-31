@@ -13,8 +13,6 @@ license: BY-SA
 ---
 # Privacy Guides is now multilingual
 
-![](../assets/brand/PNG/Banner/cover.png)
-
 It's finally here. After countless requests, Privacy Guides now has translations.
 
 People have always asked us for translations to other languages because our team and community produces high quality, reliable, honest, and researched content. Our [previous site](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides) never had a system for this. All translations were done manually, and translators would quickly lose interest. Translated sites would be outdated and lay unmaintained on domains that we didn't own. Privacy Guides now has a proper system.<!-- more -->

@@ -4,13 +4,14 @@ site_dir: 'site'
 
 site_name: Privacy Guides
 site_description: |
-  Privacy Guides is your central privacy and security resource to protect yourself online.
+  The Privacy Guides blog publishes timely information, website announcements, and other updates from the team and contributors.
 copyright: |
   <b>Privacy Guides</b> is a non-profit, socially motivated website that provides information for protecting your data security and privacy.<br>
   &copy; 2019 – 2023 Privacy Guides and contributors. <a href="https://www.privacyguides.org/about/privacy-policy/">Privacy Policy</a>.
 
 extra:
   generator: false
+  homepage: https://www.privacyguides.org/
   analytics:
     provider: plausible
     property: blog.privacyguides.org
@@ -45,6 +46,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - content.tooltips
     - search.highlight
   palette:
@@ -73,17 +75,15 @@ watch:
 plugins:
   meta: {}
   privacy:
-    external_assets_exclude:
+    assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
       - api.privacyguides.net/*
-    external_links_noopener: true
+    links_noopener: true
   social:
-    cards: !ENV [CARDS, false]
-    cards_color:
-      fill: "#FFD06F"
-      text: "#2d2d2d"
+    cards: !ENV [CARDS, true]
     cards_dir: assets/img/social
-    cards_font: 'Public Sans'
+    cards_layout_dir: theme/layouts
+    cards_layout: custom
   blog:
     blog_dir: .
     post_url_format: "{date}/{file}"
@@ -128,9 +128,7 @@ markdown_extensions:
   pymdownx.keys: {}
   pymdownx.mark: {}
   pymdownx.tilde: {}
-  pymdownx.snippets:
-    auto_append:
-      - includes/abbreviations.en.md
+  pymdownx.snippets: {}
   pymdownx.tasklist:
     custom_checkbox: true
   attr_list: {}

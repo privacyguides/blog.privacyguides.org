@@ -1,1 +1,4 @@
-# Privacy Guides Blog
+---
+title: Blog
+homepage: true
+---
