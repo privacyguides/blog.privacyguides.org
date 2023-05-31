@@ -11,7 +11,7 @@ license: BY-SA
 ---
 # Privacy Guides now has merchandise
 
-Yes, you read the title correctly: now we have merch. Privacy Guides has partnered with [HELLOTUX](https://www.hellotux.com/privacyguides) to create what we think are the finest garments in the land.<!-- more -->
+Yes, you read the title correctly: we have merch now. Privacy Guides has partnered with [HELLOTUX](https://www.hellotux.com/privacyguides) to create what we think are the finest garments in the land.<!-- more -->
 
 It would be ironic to sell our products on a site riddled with ads and trackers. So we weren't going to. This decision ruled out loads of providers, as our privacy-focused values and their Google Analytics just didn't quite align. Privacy Guides has a global audience, so worldwide shipping was a must. And we didn't want to be peddling tacky cheaply printed t-shirts either. This narrowed down our options considerably. 
 
