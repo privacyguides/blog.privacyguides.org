@@ -8,6 +8,7 @@ authors:
 tags:
     - Privacy Guides
 license: BY-SA
+cover: assets/images/merch-announcement/cover.png
 ---
 # Privacy Guides now has merchandise
 
