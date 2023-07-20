@@ -12,7 +12,7 @@ tags:
     - Security
 license: BY-SA
 ---
-# Erasing Data Securely from Your SSD or HDD
+# Erasing Data Securely From Your SSD or HDD
 
 **Erasing data** from your computer may seem like a simple task, but if you want to make sure the data is truly unrecoverable, there are some things you should consider.<!-- more -->
 

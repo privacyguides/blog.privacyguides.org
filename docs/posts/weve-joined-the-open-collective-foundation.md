@@ -10,7 +10,7 @@ tags:
     - Privacy Guides
 license: CC0
 ---
-# We've joined the Open Collective Foundation 501(c)(3)
+# We've Joined the Open Collective Foundation 501(c)(3)
 
 ![](../assets/brand/PNG/Banner/cover.png)
 
