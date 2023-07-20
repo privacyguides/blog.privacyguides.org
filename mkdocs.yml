@@ -83,7 +83,7 @@ plugins:
     cards: !ENV [CARDS, true]
     cards_dir: assets/img/social
     cards_layout_dir: theme/layouts
-    cards_layout: custom
+    cards_layout: post
   blog:
     blog_dir: .
     post_url_format: "{date}/{file}"

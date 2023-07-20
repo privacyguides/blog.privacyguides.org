@@ -17,16 +17,3 @@ updates:
       - github-privacyguides
     schedule:
       interval: "daily"
-
-  # Maintain dependencies for pipenv
-  - package-ecosystem: "pip"
-    directory: "/"
-    insecure-external-code-execution: allow
-    registries:
-      - github-privacyguides
-    schedule:
-      interval: "daily"
-    assignees:
-      - "jonaharagon"
-    reviewers:
-      - "jonaharagon"

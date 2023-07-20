@@ -9,61 +9,34 @@ definitions:
 
   - &background_color >-
     {%- if page.meta.cover -%}
-      #f7f7fcaa
     {%- else -%}
       #FFD06F
     {%- endif -%}
 
   - &color >-
-    {{ layout.color or "#2d2d2d" }}
+    {%- if page.meta.cover -%}
+      #00000000
+    {%- else -%}
+      {{ layout.color or "#2d2d2d" }}
+    {%- endif -%}
 
   - &font_family >-
-    {%- if config.theme.language == "he" -%}
-      Suez One
-    {%- else -%}
-      Public Sans
-    {%- endif -%}
+    Public Sans
 
   - &site_name >-
-    {%- if page.meta.homepage -%}
-    {%- else -%}
-      {{ config.site_name }} Blog
-    {%- endif -%}
+    {{ config.site_name }} Blog
 
   - &page_title >-
-    {%- if page.meta.homepage -%}
-    {%- else -%}
-      {{ page.meta.get("title", page.title) }}
-    {%- endif -%}
-
-  - &homepage_title >-
-    {%- if page.meta.homepage -%}
-      Privacy Guides Blog
-    {%- else -%}
-    {%- endif -%}
+    {{ page.meta.get("title", page.title) }}
 
   - &page_title_with_site_name >-
     {%- if page.meta.meta_title -%}
       {{ page.meta.meta_title }}
-    {%- elif not page.meta.homepage -%}
-      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
     {%- else -%}
-      {{ page.meta.get("title", page.title) }}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }} Blog
     {%- endif -%}
 
   - &page_description >-
-    {%- if page.meta.homepage -%}
-    {%- else -%}
-      {{ page.meta.get("description", config.site_description) or "" }}
-    {%- endif -%}
-  
-  - &homepage_description >-
-    {%- if page.meta.homepage -%}
-      Publishing timely information, website announcements, and other updates from the team and contributors.
-    {%- else -%}
-    {%- endif -%}
-
-  - &og_description >-
     {{ page.meta.get("description", config.site_description) or "" }}
 
   - &page_icon >-
@@ -71,7 +44,6 @@ definitions:
 
   - &logo >-
     {%- if page.meta.cover -%}
-      {{ config.docs_dir }}/assets/brand/SVG/Logo/privacy-guides-logo-notext.svg
     {%- elif config.theme.logo -%}
       {{ config.docs_dir }}/{{ config.theme.logo }}
     {%- endif -%}
@@ -82,7 +54,7 @@ tags:
   # Open Graph
   og:type: website
   og:title: *page_title_with_site_name
-  og:description: *og_description
+  og:description: *page_description
   og:image: "{{ image.url }}"
   og:image:type: "{{ image.type }}"
   og:image:width: "{{ image.width }}"
@@ -145,42 +117,12 @@ layers:
       font:
         family: *font_family
         style: Bold
-  
-  # Homepage title
-  - size: { width: 864, height: 256 }
-    offset: { x: 62, y: 192 }
-    typography:
-      content: *homepage_title
-      overflow: shrink
-      align: start
-      color: *color
-      line:
-        amount: 3
-        height: 1.5
-      font:
-        family: Bagnard
-        style: Bold
 
   # Page description
   - size: { width: 864, height: 96 }
     offset: { x: 64, y: 480 }
     typography:
       content: *page_description
-      align: start
-      color: *color
-      line:
-        amount: 3
-        height: 1.5
-      font:
-        family: *font_family
-        style: Regular
-  
-  # Homepage description
-  - size: { width: 864, height: 192 }
-    offset: { x: 64, y: 320 }
-    typography:
-      content: *homepage_description
-      overflow: shrink
       align: start
       color: *color
       line:
