@@ -11,7 +11,7 @@ tags:
     - Instant Messengers
 license: BY-SA
 ---
-# Choosing The Right Messenger
+# Choosing the Right Messenger
 
 !["Choosing The Right Messenger" cover image](../assets/images/choosing-the-right-messenger/cover.png)
 

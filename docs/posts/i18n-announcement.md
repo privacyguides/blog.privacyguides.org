@@ -11,7 +11,7 @@ tags:
     - Privacy Guides
 license: BY-SA
 ---
-# Privacy Guides is now multilingual
+# Privacy Guides Is Now Multilingual
 
 It's finally here. After countless requests, Privacy Guides now has translations.
 

@@ -12,7 +12,7 @@ tags:
     - VPN
 license: BY-SA
 ---
-# The Trouble with VPN and Privacy Review Sites
+# The Trouble With VPN and Privacy Review Sites
 
 !["Unbiased Reviews" cover image](../assets/images/the-trouble-with-vpn-and-privacy-review-sites/cover.png)
 
