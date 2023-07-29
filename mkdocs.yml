@@ -16,15 +16,21 @@ extra:
     provider: plausible
     property: blog.privacyguides.org
   social:
+    - icon: simple/mastodon
+      link: https://mastodon.neat.computer/@privacyguides
+      name: Mastodon
     - icon: simple/matrix
       link: https://matrix.to/#/#privacyguides:matrix.org
       name: Matrix
     - icon: simple/discourse
-      link: https://discuss.privacyguides.org/
+      link: https://discuss.privacyguides.net/
       name: Forum
-    - icon: simple/mastodon
-      link: https://mastodon.social/@privacyguides
-      name: Mastodon
+    - icon: simple/github
+      link: https://github.com/privacyguides
+      name: GitHub
+    - icon: simple/torbrowser
+      link: http://blog.xoe4vn5uwdztif6goazfbmogh6wh5jc4up35bqdflu6bkdc5cas5vjqd.onion/
+      name: Hidden service
     - icon: simple/rss
       link: /feed_rss_created.xml
       name: RSS
