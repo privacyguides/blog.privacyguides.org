@@ -6,7 +6,7 @@ authors:
     - freddy-m
 links:
     - posts/move-fast-and-break-things.md
-    - posts/twitter-elon-takeover.md
+    - posts/virtual-insanity.md
 tags:
     - Twitter
     - Facebook
@@ -17,7 +17,7 @@ cover: assets/images/threads-launch-twitter/cover.jpg
 
 Silicon Valley could well be built on the principle of scrapping principles. Now Elon Musk, perhaps the ultimate tech bro, is shredding another well-regarded convention with an *original business strategy*.<!-- more -->
 
-Generally, in business, it is sensible to provide your customers with what they want. With Twitter, the meme-makers' favourite billionaire is doing the opposite. The cyber-trucker is trying his best to [cull](https://blog.privacyguides.org/2022/12/04/twitter-elon-takeover/) his customer base. Instead of finding gaps in the market, Musk is helping to create them. Ever the [copycat](https://blog.privacyguides.org/2022/04/04/move-fast-and-break-things/), Mark Zuckerberg wants to give these innovative tactics a try. Enter the-company formerly-known-as-Facebook's rival to the birdsite: Threads.
+Generally, in business, it is sensible to provide your customers with what they want. With Twitter, the meme-makers' favourite billionaire is doing the opposite. The cyber-trucker is trying his best to [cull](https://jottings.lol/2022/12/bravo-elon) his customer base. Instead of finding gaps in the market, Musk is helping to create them. Ever the [copycat](https://blog.privacyguides.org/2022/04/04/move-fast-and-break-things/), Mark Zuckerberg wants to give these innovative tactics a try. Enter the-company formerly-known-as-Facebook's rival to the birdsite: Threads.
 
 The Zuck is, by all accounts, good at making social media platforms. This doesn't mean the platforms themselves are good - they [aren't](https://blog.privacyguides.org/2021/11/01/virtual-insanity/). But they are unarguably successful: Instagram and WhatsApp have comfortably over a billion users, Facebook has nearly three. If only half of these users adopt the new platform, it would instantly eclipse Twitter. As it happens, Threads allows you to import all your followers from Instagram. Of all the Twitter alternatives, Zuckerberg's looks like the most promising.
 
