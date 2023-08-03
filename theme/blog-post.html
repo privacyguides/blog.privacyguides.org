@@ -71,13 +71,13 @@
                 </div>
               </li>
 
-              <!-- Updated date -->
-              {% if page.meta.updated %}
+              <!-- Page date updated -->
+              {% if page.meta.date_updated %}
                 <li class="md-nav__item">
                   <div class="md-nav__link">
-                    {% include ".icons/material/calendar-edit.svg" %}
-                    <time datetime="{{ page.meta.updated }}" class="md-ellipsis" title="Date Updated" itemprop="dateModified">
-                      {{- page.meta.updated.strftime('%B %-d, %Y') -}}
+                    {% include ".icons/material/calendar-clock.svg" %}
+                    <time datetime="{{ page.meta.date_updated }}" class="md-ellipsis" title="Date Updated" itemprop="dateModified">
+                      {{- page.meta.date_updated_format -}}
                     </time>
                   </div>
                 </li>
@@ -119,36 +119,36 @@
               {% endif %}
 
               <!-- Post license -->
-                <li class="md-nav__item">
-                    <div class="md-nav__link">
-                    {% if page.meta.license == "BY" or page.meta.license == "BY-SA" or page.meta.license == "BY-NC" or page.meta.license == "BY-NC-SA" or page.meta.license == "BY-SA" or page.meta.license == "BY-ND" or page.meta.license == "BY-NC-ND" %}
-                        {% include ".icons/material/creative-commons.svg" %}
-                        <span class="md-ellipsis">
-                            <a itemprop="license" href="https://creativecommons.org/licenses/{{ page.meta.license|lower }}/4.0/">{{ page.meta.license }} 4.0</a>
-                        </span>
-                    {% elif page.meta.license == "CC0" %}
-                        {% include ".icons/fontawesome/brands/creative-commons-zero.svg" %}
-                        <span class="md-ellipsis">
-                            <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 (Public domain)</a>
-                        </span>
-                    {% elif page.meta.license == "Public domain" %}
-                        {% include ".icons/fontawesome/brands/creative-commons-pd.svg" %}
-                        <span class="md-ellipsis">
-                            <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public domain</a>
-                        </span>
-                    {% elif page.meta.license %}
-                        {% include ".icons/material/scale-balance.svg" %}
-                        <span class="md-ellipsis">
-                            {{ page.meta.license }}
-                        </span>
-                    {% else %}
-                        {% include ".icons/material/copyright.svg" %}
-                        <span class="md-ellipsis">
-                            All rights reserved
-                        </span>
-                    {% endif %}
-                    </div>
-                </li>
+              <li class="md-nav__item">
+                <div class="md-nav__link">
+                {% if page.meta.license == "BY" or page.meta.license == "BY-SA" or page.meta.license == "BY-NC" or page.meta.license == "BY-NC-SA" or page.meta.license == "BY-SA" or page.meta.license == "BY-ND" or page.meta.license == "BY-NC-ND" %}
+                    {% include ".icons/material/creative-commons.svg" %}
+                    <span class="md-ellipsis">
+                        <a itemprop="license" href="https://creativecommons.org/licenses/{{ page.meta.license|lower }}/4.0/">{{ page.meta.license }} 4.0</a>
+                    </span>
+                {% elif page.meta.license == "CC0" %}
+                    {% include ".icons/fontawesome/brands/creative-commons-zero.svg" %}
+                    <span class="md-ellipsis">
+                        <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 (Public domain)</a>
+                    </span>
+                {% elif page.meta.license == "Public domain" %}
+                    {% include ".icons/fontawesome/brands/creative-commons-pd.svg" %}
+                    <span class="md-ellipsis">
+                        <a itemprop="license" href="https://creativecommons.org/publicdomain/zero/1.0/">Public domain</a>
+                    </span>
+                {% elif page.meta.license %}
+                    {% include ".icons/material/scale-balance.svg" %}
+                    <span class="md-ellipsis">
+                        {{ page.meta.license }}
+                    </span>
+                {% else %}
+                    {% include ".icons/material/copyright.svg" %}
+                    <span class="md-ellipsis">
+                        All rights reserved
+                    </span>
+                {% endif %}
+                </div>
+              </li>
             </ul>
 
             <!-- Page links -->
@@ -170,6 +170,11 @@
               </ul>
             {% endif %}
           </nav>
+
+          <!-- Table of contents, if integrated -->
+          {% if "toc.integrate" in features %}
+            {% include "partials/toc.html" %}
+          {% endif %}
         </div>
       </div>
     </div>

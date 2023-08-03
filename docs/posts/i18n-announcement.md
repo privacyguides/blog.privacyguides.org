@@ -1,6 +1,6 @@
 ---
 date: 2023-02-26
-updated: 2023-02-26
+date_updated: 2023-02-26
 categories:
     - Announcements
 authors:

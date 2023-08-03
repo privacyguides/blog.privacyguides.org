@@ -3,7 +3,7 @@
 ## Post Metadata
 
 - `date` (**required**): Original post date (`YYYY-MM-DD`)
-- `updated`: Post update date (`YYYY-MM-DD`)
+- `date_updated`: Post update date (`YYYY-MM-DD`)
 - `categories`: List of post categories. Allowed categories: `Announcements`, `Opinion`, `Software`, `Hardware`, `Android`, `iOS`, `Linux`, `macOS`, `Windows`, `Qubes OS`, `Providers`
 - `authors`: List of post authors. Authors must exist in [`.authors.yml`](/docs/.authors.yml). Only the first author will be displayed on the blog index.
 - `links`: Related links shown on post sidebar. May be internal or external links.
@@ -15,7 +15,7 @@ Example:
 ```
 ---
 date: 2021-09-14
-updated: 2022-05-10
+date_updated: 2022-05-10
 categories:
     - Announcements
 authors:
