@@ -12,9 +12,6 @@ copyright: |
 extra:
   generator: false
   homepage: https://www.privacyguides.org/
-  analytics:
-    provider: plausible
-    property: blog.privacyguides.org
   social:
     - icon: simple/mastodon
       link: https://mastodon.neat.computer/@privacyguides
@@ -83,7 +80,6 @@ plugins:
   privacy:
     assets_exclude:
       - cdn.jsdelivr.net/npm/mathjax@3/*
-      - api.privacyguides.net/*
     links_noopener: true
   social:
     cards: !ENV [CARDS, true]
@@ -158,7 +154,6 @@ extra_css:
   - assets/stylesheets/extra.css?v=2.10.0
 extra_javascript:
   - assets/javascripts/mathjax.js
-  - assets/javascripts/feedback.js
 
 nav:
   - Home: 'https://www.privacyguides.org/'
