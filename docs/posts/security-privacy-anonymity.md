@@ -17,7 +17,7 @@ license: BY
 
 We may think that we know the differences between privacy, security and anonymity, however we often mix them up. People will often criticize a product or service as “not private” when they really mean “not anonymous.” Privacy, security, and anonymity often complement each other, but they are not always dependent on each other, and they are definitely not the same thing. A service can be private without being anonymous, or even secure without being private. Which one should you prioritize?<!-- more --> To some extent, there are no wrong answers. It really comes down to your threat model and what your desired goal is. It is perfectly fine to pick a product that provides privacy even though it doesn't provide anonymity. Furthermore, it's okay to pick a product that doesn't provide security if it does provide one of the other features. The important thing is that you need to be aware what these products and services are and aren’t offering you so that you can use them correctly.
 
-There’s lots of ways to define privacy, security, and anonymity. Someone showed me [this](https://github.com/privacytools/privacytools.io/issues/1760#issuecomment-597497298) definition and I really liked it. It seems to pretty much hit the nail on the head when applying these terms specifically to data privacy and cybersecurity:
+There’s lots of ways to define privacy, security, and anonymity. Someone showed me [this](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452) definition and I really liked it. It seems to pretty much hit the nail on the head when applying these terms specifically to data privacy and cybersecurity:
 
 **Anonymity**: *The sender and/or recipient's real ID is unknown*
 
@@ -47,7 +47,7 @@ Cash is a great example of this. Paying for a product in cash preserves your ano
 
 ## Security with Privacy and Anonymity
 
-XMPP is arguably the best example of this. XMPP allows you to sign up without any real information, over a VPN or Tor connection for total anonymity. Additionally, the conversations can be protected by OMEMO encryption, meaning the data itself is also private. When used properly, this is as closed to perfect as you can get, if a bit user-unfriendly. (**Editor's note**: XMPP is not officially endorsed by Privacy Guides for the reasons listed [here](https://github.com/privacytools/privacytools.io/issues/1854).)
+XMPP is arguably the best example of this. XMPP allows you to sign up without any real information, over a VPN or Tor connection for total anonymity. Additionally, the conversations can be protected by OMEMO encryption, meaning the data itself is also private. When used properly, this is as closed to perfect as you can get, if a bit user-unfriendly. (**Editor's note**: XMPP is not officially endorsed by Privacy Guides for the reasons listed [here](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1854).)
 
 ## Closing Thoughts
 
