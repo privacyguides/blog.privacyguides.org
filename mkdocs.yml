@@ -90,6 +90,7 @@ plugins:
     blog_dir: .
     post_url_format: "{date}/{file}"
     categories_allowed:
+      - This Week in Privacy
       - Announcements
       - Opinion
       - Software
