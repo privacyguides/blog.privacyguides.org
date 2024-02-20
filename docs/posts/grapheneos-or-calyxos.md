@@ -32,7 +32,7 @@ microG is a partially open-source re-implementation of Google Play Services.[^1]
 
 When using Sandboxed Google Play, you have the option to reroute location requests to the Play Services API back to the OS location API, which uses satellite based location services. With microG, you have the option to choose between different backend location providers, including *shifting trust* to another location backend, like Mozilla; using [DejaVu](https://github.com/n76/DejaVu), a location backend that locally collects and saves RF-based location data to an offline database which can be used when GPS is not available; or to simply not use a network location backend at all.
 
-Network location providers like Play Services or Mozilla rely the on the MAC addresses of surrounding WiFi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
+Network location providers like Play Services or Mozilla rely on the MAC addresses of surrounding WiFi access points and Bluetooth devices being submitted for location approximation. Choosing a network location like Mozilla to use with microG provides little to no privacy benefit over Google because you are still submitting the same data and trusting them to not profile you.
 
 Local RF location backends like DejaVu require that the phone has a working GPS first for the local RF data collected to be useful. This makes them less effective as location providers, as the job of a location provider is to assist location approximation when satellite based services are not working.
 
