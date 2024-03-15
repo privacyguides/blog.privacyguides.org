@@ -214,7 +214,7 @@ On Android you can consider using **Molly**, a fork of the Signal mobile client 
 
 !!! recommendation
 
-    ![Molly logo](/assets/images/signal-configuration/molly.svg){ align=right }
+    ![Molly logo](../assets/images/signal-configuration/molly.svg){ align=right }
 
     **Molly** is an independent Signal fork which offers additional security features, including locking the app at rest, securely shredding unused RAM data, routing via Tor, and more.
 
