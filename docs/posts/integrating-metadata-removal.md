@@ -22,7 +22,7 @@ This guide uses the [Shortcuts](https://support.apple.com/guide/shortcuts-mac/in
 
 Shortcuts is quite intuitive to work with, so if you don't like the behavior demoed here then experiment with your own solution. For example, you could set the shortcut to take a clipboard input instead. The sky's the limit.
 
-![ExifTool Quick Action](/assets/images/metadata-removal/preview-macos.png)
+![ExifTool Quick Action](../assets/images/metadata-removal/preview-macos.png)
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
     done
     ```
 
-![macOS metadata removal shortcut](/assets/images/metadata-removal/shortcut-macos.png)
+![macOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-macos.png)
 
 !!! tip "Worth Mentioning"
     The open-source [ImageOptim](https://imageoptim.com/mac) app integrates into Finder's *Services* context menu by default. While it is primarily an image optimization app, it also removes metadata.
@@ -90,7 +90,7 @@ Shortcuts is quite intuitive to work with, so if you don't like the behavior dem
 
 The lack of *good* metadata removal apps on the App Store is what makes this solution worthwhile.
 
-![Don't preserve metadata shortcut](/assets/images/metadata-removal/preview-ios.png)
+![Don't preserve metadata shortcut](../assets/images/metadata-removal/preview-ios.png)
 
 ### Prerequisites
 
@@ -118,7 +118,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 10. Make sure that you uncheck **preserve metadata**
 
-![iOS/iPadOS metadata removal shortcut](/assets/images/metadata-removal/shortcut-ios.png)
+![iOS/iPadOS metadata removal shortcut](../assets/images/metadata-removal/shortcut-ios.png)
 
 ### Enabling & using the Shortcut
 
@@ -129,7 +129,7 @@ The lack of *good* metadata removal apps on the App Store is what makes this sol
 
 Windows allows you to place files in a **SendTo** folder which then appear in the *Send to* context menu. This guide will show you how to add an [ExifTool](https://www.privacyguides.org/data-redaction#exiftool) batch script to this menu.
 
-![Send to metadata removal shortcut](/assets/images/metadata-removal/preview-windows.jpg)
+![Send to metadata removal shortcut](../assets/images/metadata-removal/preview-windows.jpg)
 
 ### Prerequisites
 
